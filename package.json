@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple loader using CSS.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:scss": "node-sass -w scss/ -o css/"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/Anupam96786/circular-wave-loader/issues"
   },
-  "homepage": "https://github.com/Anupam96786/circular-wave-loader#readme"
+  "homepage": "https://github.com/Anupam96786/circular-wave-loader#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
 }
