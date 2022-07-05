@@ -24,7 +24,7 @@
   position: absolute;
   border-radius: 50%;
   transform: rotateX(70deg);
-  animation: wave 2s infinite; }
+  animation: wave 3s infinite; }
 
 .loader .element:nth-child(1) {
   height: 50px;

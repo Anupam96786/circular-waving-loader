@@ -1,5 +1,5 @@
-$elements: 12;
-$initial-radius: 20px;
+$elements: 12;            // number of loader elements
+$initial-radius: 20px;    // radius of the core element
 $increase-radius: 30px;
 
 $colors: (
@@ -15,4 +15,4 @@ $colors: (
         10: #8400ff,
         11: #c800ff,
         12: #ff00ae,
-)
+);
