@@ -1,0 +1,44 @@
+/*
+ * Author: Anupam Samanta
+ * Github: https://github.com/Anupam96786
+ */
+@import "variables";
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotateX(70deg) translateY(0px);
+  }
+  50% {
+    transform: rotateX(70deg) translateY(-200px);
+  }
+  100% {
+    transform: rotateX(70deg) translateY(0px);
+  }
+}
+
+.loader .element {
+  position: absolute;
+  border-radius: 50%;
+  transform: rotateX(70deg);
+  animation: wave 3s infinite;
+}
+
+@for $i from 1 to $elements + 1 {
+  .loader .element:nth-child(#{$i}) {
+    height: #{$initial-radius + $increase-radius * $i};
+    width: #{$initial-radius + $increase-radius * $i};
+    border: 3px solid nth(map-values($colors), $i);
+    animation-delay: #{100 * $i}ms;
+  }
+}

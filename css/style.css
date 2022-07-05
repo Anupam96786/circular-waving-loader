@@ -1,0 +1,99 @@
+/*
+ * Author: Anupam Samanta
+ * Github: https://github.com/Anupam96786
+ */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+@keyframes wave {
+  0% {
+    transform: rotateX(70deg) translateY(0px); }
+  50% {
+    transform: rotateX(70deg) translateY(-200px); }
+  100% {
+    transform: rotateX(70deg) translateY(0px); } }
+
+.loader .element {
+  position: absolute;
+  border-radius: 50%;
+  transform: rotateX(70deg);
+  animation: wave 2s infinite; }
+
+.loader .element:nth-child(1) {
+  height: 50px;
+  width: 50px;
+  border: 3px solid #ff0000;
+  animation-delay: 100ms; }
+
+.loader .element:nth-child(2) {
+  height: 80px;
+  width: 80px;
+  border: 3px solid #ff5900;
+  animation-delay: 200ms; }
+
+.loader .element:nth-child(3) {
+  height: 110px;
+  width: 110px;
+  border: 3px solid #ff9900;
+  animation-delay: 300ms; }
+
+.loader .element:nth-child(4) {
+  height: 140px;
+  width: 140px;
+  border: 3px solid #e6ff00;
+  animation-delay: 400ms; }
+
+.loader .element:nth-child(5) {
+  height: 170px;
+  width: 170px;
+  border: 3px solid #66ff00;
+  animation-delay: 500ms; }
+
+.loader .element:nth-child(6) {
+  height: 200px;
+  width: 200px;
+  border: 3px solid #00ff95;
+  animation-delay: 600ms; }
+
+.loader .element:nth-child(7) {
+  height: 230px;
+  width: 230px;
+  border: 3px solid #00d9ff;
+  animation-delay: 700ms; }
+
+.loader .element:nth-child(8) {
+  height: 260px;
+  width: 260px;
+  border: 3px solid #0095ff;
+  animation-delay: 800ms; }
+
+.loader .element:nth-child(9) {
+  height: 290px;
+  width: 290px;
+  border: 3px solid #002aff;
+  animation-delay: 900ms; }
+
+.loader .element:nth-child(10) {
+  height: 320px;
+  width: 320px;
+  border: 3px solid #8400ff;
+  animation-delay: 1000ms; }
+
+.loader .element:nth-child(11) {
+  height: 350px;
+  width: 350px;
+  border: 3px solid #c800ff;
+  animation-delay: 1100ms; }
+
+.loader .element:nth-child(12) {
+  height: 380px;
+  width: 380px;
+  border: 3px solid #ff00ae;
+  animation-delay: 1200ms; }
