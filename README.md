@@ -3,18 +3,18 @@
 A circular waving loader using CSS.
 
 ## Live Demo
-[Click Here](https://anupam96786.github.io/circular-wave-loader/)
+[Click Here](https://anupam96786.github.io/circular-waving-loader/)
 
 ## Getting Started
 
 1. Downloading the repository
 ```shell
-git clone https://github.com/Anupam96786/circular-wave-loader.git
+git clone https://github.com/Anupam96786/circular-waving-loader.git
 ```
 
 2. Installing all dependencies
 ```shell
-cd circular-wave-loader
+cd circular-waving-loader
 npm install
 ```
 
